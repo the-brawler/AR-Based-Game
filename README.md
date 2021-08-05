@@ -1,12 +1,26 @@
 # AR-Based-Game
 MARS Open Projects 2021
+
+![Main Menu!](/Images/MainMenu.jpeg "MainMenu")
+
 ## Abstract
 An AR Based 3D FPS game which uses our device camera to spawn enemies in our real world and we have to kill maximum of them using vintage weapons like bow and arrow, shotgun, axe and revolver. AR Foundation package of Unity 3D has been used to build this game.
 
-![Gameplay Image!](/Images/Cannibal-Boar-Enemies.jpeg "Enemies")
+![Unity!](/Images/Unity-pic.png "Unity")
+
+![Gameplay Image!](/Images/Cannibal-Boar-Enemies.jpeg "Enemies").
 
 ## Motivation
+Augmented Reality is a medium which creates a link between virtual world and real world. Using AR we can interact with virtual objects in our real surroundings using our phone. The game deals with the same in which the enemies like cannibal, boar appear in our real world when viewed from our playing device and we have to kill them using the weapons available and also escape their attacks by moving away from the enemies, which can be done by physically moving back. The player movement in the real world searching for game objects and enemies makes it involving and interesting.
 
+The idea is to make people familiar with AR in a fun and involving method. The concept of AR are now being widely used for different stuff like, 3D clothes, glasses try on before buying, furniture and other decoratives for home, trying them how it would look in the house using AR before actually buying it. To make people comfortable of this technology, this game takes a small step.
+
+## Applications
+This AR Game makes people familiar and comfortable with the whole technology of Augmented Reality which is useful for following application:
+- 3D try on clothes and accessories
+- Trying of furnitures, paintings and other decoratives
+- Classroom education
+- Medical training
 
 ## Future Improvements
 1. Improve shooting effects 
@@ -23,6 +37,8 @@ An AR Based 3D FPS game which uses our device camera to spawn enemies in our rea
 12. Other changes in damage value of weapons and enemies to be modified.
 13. Make it compatible for iOS too.
 14. Weapons to be spawned in the world around us which have to be found to kill the enemies.
+
+![Gameplay Image!](/Images/Cannibal-Boar-Enemies.jpeg "Enemies")
 
 ## Team Members
 - Aman Prakash Gaurav
