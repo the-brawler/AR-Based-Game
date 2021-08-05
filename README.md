@@ -38,7 +38,7 @@ This AR Game makes people familiar and comfortable with the whole technology of 
 13. Make it compatible for iOS too.
 14. Weapons to be spawned in the world around us which have to be found to kill the enemies.
 
-![Gameplay Image!](/Images/Cannibal-Boar-Enemies.jpeg "Enemies")
+![Gameplay Image!](/Images/Enemy-Death-Enemy-Chase-Blood.jpeg "Enemies")
 
 ## Team Members
 - Aman Prakash Gaurav
