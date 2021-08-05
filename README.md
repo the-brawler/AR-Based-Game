@@ -25,14 +25,14 @@ An AR Based 3D FPS game which uses our device camera to spawn enemies in our rea
 14. Weapons to be spawned in the world around us which have to be found to kill the enemies.
 
 ## Team Members
-Aman Prakash Gaurav
-Harsh Pal
-Parameshwar Kaveti
-Tejavath Bhavsingh
+- Aman Prakash Gaurav
+- Harsh Pal
+- Parameshwar Kaveti
+- Tejavath Bhavsingh
 
 ## Mentors
-Anfal Ansari
-Rishika Chandra
+- Anfal Ansari
+- Rishika Chandra
 
 ## References
 1. https://www.youtube.com/watch?v=Sqb-Ue7wpsI&t=17652s
