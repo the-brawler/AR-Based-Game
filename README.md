@@ -21,6 +21,19 @@ This AR Game makes people familiar and comfortable with the whole technology of 
 - Trying of furnitures, paintings and other decoratives
 - Classroom education
 - Medical training
+- AR in association with VR and robotics can be used for application in various industry sectors like manufacturing product in different sectors
+
+## Working
+AR works by merging both the coordinates of virtual and real world hence we can spawn the virtual object in real world.
+### Raycasting
+Raycasting is a process of shooting a Ray which is an invisible line (it can be made to be visible too) from a point in space into a specific direction. This Ray when it hits something, for example, an object that is in its path, can then gather information about that object. Raycasting is used everywhere in games, for shooting a bullet in an FPS, TPS or even adventure game. There is also the Physics Ray caster that works against all 3D and 2D objects that have a rigid body or a collider component on them. The rigid body and collider components are used to achieve physics interactions inside Unity.
+In our project we used the raycasting feature of AR Foundation to spawn the enemies perfectly on the ground. So we used a indicator instead of the default AR plane which is used to be placed on the detected plane and then based on the coordinates of the indicator we made some changes to x and z coordinates of the indicator so that the object is not exactly placed of the indicator (exactly at the place where camera is looking) but at some random point almost close to coordinates of the indicator. This procedure of spawning is being called for every 6 seconds in Level 1 and for every 5 seconds in Level 2. So, by this we were able to spawn the enemies exactly on the ground.
+We used raycasting to detect the enemies while the enemy is being killed such that enemy can be killed only when the ray hits the enemy which is in the real world and that collision coordinate is noted and then it is checked if the name of the object which was collided with the ray is with name given by us to that object and if that is matched then according to the number of shoots the enemy gets dead. So inorder to help the virtual object to be get collided with the ray we use box colliders which we attached to the body of the enemies. The green colour cube around these prefabs is the box collider. 
+
+## Limitations
+1. Real world objects like vertical planes(walls), trees and other things have not been perfectly optimized.
+2. Not compatibal for iOS yet.
+3. Bugs
 
 ## Future Improvements
 1. Improve shooting effects 
